@@ -1,0 +1,176 @@
+.img-holder2 {
+    overflow-y: scroll;
+    width: 100%;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    height: 504px;
+    margin-top: 30px;
+}
+
+.img2 {
+    width: 95px;
+    height: 95px;
+    object-fit: cover;
+    padding: 0.75rem;
+}
+
+
+.container2 {
+    width: 497px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-style: dashed;
+    height: 467px;
+
+}
+
+.col-ms-12 ul li {
+    display: flex;
+    align-items: center;
+}
+
+.page {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+body {
+    background-image: url('bg.jpg');
+}
+
+.container {
+    width: 497px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-style: dashed;
+    height: 467px;
+
+}
+
+.heading {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1rem;
+    font-weight: bold;
+
+}
+
+.img {
+    width: 100%;
+    height: 304px;
+    object-fit: cover;
+}
+
+#input[type="file"] {
+    display: none;
+}
+
+.label {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    border: 3px dashed #e0eafc;
+    background-color: #f0f0f0;
+
+}
+
+.row {
+    display: flex;
+}
+
+.row .col-ms-6 {
+    width: 50%;
+}
+
+.col-ms-6 .row {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.row .col-ms-12 {
+    height: 273px;
+    overflow-y: scroll;
+    width: 80%;
+    border-style: solid;
+    background: white;
+}
+
+.row .col-ms-12 h2 {
+    border-bottom-style: solid;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background: lightgrey;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.name {
+    border-style: none;
+    width: 75%;
+    height: 24px;
+}
+
+.icon {
+    width: 100%;
+    height: 97px;
+}
+
+
+form {
+    height: 100%;
+    width: 100%;
+}
+
+.img-holder2 img {
+    width: 100%;
+}
+
+.loading {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #051c33;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.submit {
+    text-align: center;
+    margin: 20px;
+}
+
+.ketqua {
+    display: grid;
+}
+
+.ketqua label {
+    line-height: 1.5;
+    padding: 20px;
+}
+
+.send {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    padding: 5px;
+    border-radius: 5px;
+}
